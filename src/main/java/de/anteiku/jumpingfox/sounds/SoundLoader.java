@@ -10,7 +10,7 @@ public class SoundLoader {
 			return res;
 		}
 		else {
-			System.out.println("Failed 2 load Sound: /de.anteiku.jumpingfox.sounds/" + path + ".wav");
+			System.out.println("Failed 2 load Sound: /sounds/" + path + ".wav");
 			return null;
 		}
 	}

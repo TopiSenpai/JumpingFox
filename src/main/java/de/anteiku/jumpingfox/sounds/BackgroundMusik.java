@@ -70,9 +70,9 @@ public class BackgroundMusik implements Sound{
     }
     
     private void loadMusik() {
-    	InputStream stream1 = SoundLoader.loadSound("/musik/cavemusik");
-		InputStream stream2 = SoundLoader.loadSound("/musik/hillsmusik");
-		InputStream stream3 = SoundLoader.loadSound("/musik/plainsmusik");
+    	InputStream stream1 = SoundLoader.loadSound("music/cavemusik");
+		InputStream stream2 = SoundLoader.loadSound("music/hillsmusik");
+		InputStream stream3 = SoundLoader.loadSound("music/plainsmusik");
     	sounds.clear();
     	try {
 			sounds.add(AudioSystem.getAudioInputStream(stream1));

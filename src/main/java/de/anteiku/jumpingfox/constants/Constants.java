@@ -22,6 +22,6 @@ public class Constants {
 	
 	public static float FRAME_TIME = 0;
 	
-	public static String SAVEPATH = System.getProperty("user.home") + File.separatorChar + "My Documents" + File.separatorChar;
+	public static String SAVEPATH = System.getProperty("user.home") + File.separatorChar + "My Documents" + File.separatorChar + "My Games" + File.separatorChar + "JumpingFox";
 	
 }

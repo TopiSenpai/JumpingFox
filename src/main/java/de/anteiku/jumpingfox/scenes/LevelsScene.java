@@ -157,14 +157,14 @@ public class LevelsScene implements Scene{
 				Rectangle edit = new Rectangle(rect.x + rect.width - (width * 2) + 6, yc, width, height);
 				
 				if(del.contains(x, y)) {
-					World.deleteWorld(worlds.get(i) + ".de.anteiku.jumpingfox.world");
+					World.deleteWorld(worlds.get(i) + ".world");
 				}
 				else if(edit.contains(x, y)) {
-					LevelMakerScene.loadWorld(worlds.get(rects.indexOf(rect)) + ".de.anteiku.jumpingfox.world");
+					LevelMakerScene.loadWorld(worlds.get(rects.indexOf(rect)) + ".world");
 					SceneManager.setScene(Scenes.LEVELMAKERSCENE);
 				}
 				else {
-					GameScene.loadWorld(worlds.get(rects.indexOf(rect)) + ".de.anteiku.jumpingfox.world");
+					GameScene.loadWorld(worlds.get(rects.indexOf(rect)) + ".world");
 					SceneManager.setScene(Scenes.GAMESCENE);
 				}
 				

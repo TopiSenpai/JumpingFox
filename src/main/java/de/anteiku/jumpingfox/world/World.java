@@ -142,7 +142,7 @@ public class World {
 	public static void renameWorld(String oldName, String name) {
 		File file = new File(Constants.SAVEPATH + "worlds/" + oldName);
 		if(file.exists()) {
-			file.renameTo(new File(Constants.SAVEPATH + "worlds/" + name + ".de.anteiku.jumpingfox.world"));
+			file.renameTo(new File(Constants.SAVEPATH + "worlds/" + name + ".world"));
 		}
 //		System.out.println("renamed de.anteiku.jumpingfox.world: " + oldName + " succsesfully too: " + name);
 	}

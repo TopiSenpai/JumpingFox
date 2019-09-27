@@ -51,7 +51,7 @@ public class LevelMakerScene implements Scene {
 		world = new World();
 		world.generateWorld();
 		SimpleDateFormat ft = new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss");
-		levelname = "level_" + ft.format(new Date(System.currentTimeMillis())) + ".de.anteiku.jumpingfox.world";
+		levelname = "level_" + ft.format(new Date(System.currentTimeMillis())) + ".world";
 		uiManager = new UIManager();
 		selectedTile = Tile.dirtTile;
 	}
