@@ -2,6 +2,6 @@
 
 #### A shitty 2D platform game
 
-I WILL NOT CHNAGE ANYTHING
+I WILL NOT CHANGE ANYTHING
 ---
 
